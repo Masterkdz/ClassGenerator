@@ -1,0 +1,18 @@
+MP 44 > aucun accessoire
+
+Pistolet mitrailleur > pas de poignée ni de lance grenade
+
+batteuses> seulement ACOG, laser, Poignée ou Rien
+
+Fusil d'assaut > pas de poignée
+
+pompe> poignée, laser ou rien
+
+sniper > ACOG ou rien
+
+
+Surarmement > pas 2 fois la meme arme
+
+Grenade smoke > pas de grenades Spé x3
+
+Poignée ou Lance grenade  > pas d'atout 1
