@@ -23,14 +23,28 @@ $accessoire2=array("Sans Accessoires", "Silencieux");
 //$h (0,2)
 $grenade=array("Grenade Flash", "Grenade Fumigene", "Grenade Paralysante");
 
+function arme1($principale,$accessoire1){
 $d=mt_rand(0,7); //arme principale
 if ($d=!13) {
 	elseif ($d=15 || $d=16) { //si pompe
 
 	}
-	elseif ($d<5 || /*entre 8 et 13 incl */)
+	elseif ($d>7 && $d <14/*entre 8 et 13 incl */){ //fusil d'assault
+
+	}
+	elseif($d=5 || $d=6){ //batteuse
+
+	}
+	elseif ($d>16) { //sniper
+		# code...
+	}
+	elseif ($d<5) { //pm
+		# code...
+	}
 }
 else{$f=4;} //si mp44 alors pas d'accessoire.
+return $principale[$d]." ".$accessoire1[$f];
+}
 
 
 
